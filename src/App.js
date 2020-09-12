@@ -1,8 +1,9 @@
 import React from 'react';
 
 function App() {
+  
   return (
-    <div>Hello, World</div>
+    <input type="text" onClick={() => {console.log("clicked!")}}/>
   );
 }
 
